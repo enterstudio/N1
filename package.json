@@ -44,7 +44,7 @@
     "jasmine-json": "~0.0",
     "jasmine-react-helpers": "^0.2",
     "jasmine-tagged": "^1.1.2",
-    "juice": "^1.4",
+    "juice": "^3.0.0",
     "kbpgp": "^2.0.52",
     "keytar": "3.0.0",
     "less-cache": "0.21",
