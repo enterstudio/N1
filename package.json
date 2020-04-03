@@ -60,7 +60,7 @@
     "node-uuid": "^1.4",
     "nslog": "^3",
     "optimist": "0.4.0",
-    "papaparse": "^4.1.2",
+    "papaparse": "^5.2.0",
     "pathwatcher": "~6.2",
     "pick-react-known-prop": "0.x.x",
     "promise-queue": "2.1.1",
