@@ -23,7 +23,7 @@
     "better-sqlite3": "bengotow/better-sqlite3#a888061ad334c76d2db4c06554c90785cc6e7cce",
     "bluebird": "^2.9",
     "chromium-net-errors": "1.0.3",
-    "chrono-node": "^1.1.2",
+    "chrono-node": "^2.2.4",
     "classnames": "1.2.1",
     "clearbit": "^1.2",
     "coffee-react": "^5.0.0",
