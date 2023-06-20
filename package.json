@@ -82,7 +82,7 @@
     "rx-lite-testing": "^4.0.7",
     "sanitize-html": "1.9.0",
     "season": "^5.1",
-    "semver": "^4.2",
+    "semver": "^7.5.2",
     "simplemde": "jstejada/simplemde-markdown-editor#input-style-support",
     "source-map-support": "^0.3.2",
     "temp": "^0.8",
