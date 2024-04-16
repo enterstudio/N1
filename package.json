@@ -16,7 +16,7 @@
   "dependencies": {
     "analytics-node": "2.x.x",
     "async": "^0.9",
-    "babel-core": "6.8.0",
+    "babel-core": "6.9.0",
     "babel-preset-electron": "^0.37.8",
     "babel-preset-react": "^6.16.0",
     "babel-regenerator-runtime": "6.5.0",
@@ -44,7 +44,7 @@
     "jasmine-json": "~0.0",
     "jasmine-react-helpers": "^0.2",
     "jasmine-tagged": "^1.1.2",
-    "juice": "^1.4",
+    "juice": "^3.0.0",
     "kbpgp": "^2.0.52",
     "keytar": "3.0.0",
     "less-cache": "0.21",
@@ -55,7 +55,7 @@
     "moment-round": "^1.0.1",
     "moment-timezone": "0.5.4",
     "mousetrap": "^1.5.3",
-    "nock": "^2",
+    "nock": "^8.0.0",
     "node-emoji": "^1.2.1",
     "node-uuid": "^1.4",
     "nslog": "^3",
@@ -89,7 +89,8 @@
     "tld": "^0.0.2",
     "underscore": "^1.8",
     "underscore.string": "^3.0",
-    "windows-shortcuts": "emorikawa/windows-shortcuts#b0a0fc7"
+    "windows-shortcuts": "emorikawa/windows-shortcuts#b0a0fc7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "flow-bin": "0.33.0",
@@ -110,6 +111,9 @@
     "start": "electron . --dev --enable-logging",
     "lint": "script/grunt lint",
     "build": "script/grunt build",
-    "flow": "flow; test $? -eq 0 -o $? -eq 2"
-  }
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
